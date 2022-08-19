@@ -1,0 +1,59 @@
+Q1.   Write a python script to take your name as input from user and then print it.
+Ans.   a=str(input("Enter Your Name: ")
+       print("Your Name Is: ",a)
+        --------OR--------
+       print("Enter Your Name: ")
+       a=input()
+       print("Your Name Is: ",a)
+Q2.   Write a python script to take input from user,input must be a character.
+Ans.   a=str(input)
+Q3.   Write a python script oto take two number from user,then calculate their sum and display the Result.
+Ans.    a=int(input("Enter a Number "))
+        b=int(input("Enter Second Number "))
+        print("Sum Is: ",a+b)
+Q4.   Write a python script which take the radius from the user and display area of circle.
+Ans.    radius=float(input("Enter The Radius Of Circle: "))
+        pi=3.14
+        area=pi*radius*radius
+        print("Area of circle Is: ",area)
+Q5.   Write a python script to calculate square of a number,Number is entered by user.
+Ans.  s=int(input("Enter a Number: "))
+       print("Square of Entered Number Is: ",s**s)
+Q6.   Write a python script to calculate area of triangle, number entered by User.
+Ans.   print("Enter the Base of trianlge:")
+       b=int(input())
+       print("Enter the Height Of trianlge:")
+       h=int(input())
+       area=b*h
+       print("Area of circle is: ",area)
+Q7.   Write a pyton scriot to calculate average of three numbers,entred by the User.
+Ans.   print("Enter first Number :")
+       a=int(input())
+       print("Enter Second Number :")
+       b=int(input())
+       print("Enter third NUmber: ")
+       c=int(input())
+       avg=a+b+c/3
+       print("Average of Three Number Is: ",avg)
+Q8.   Write a python script to calculate simple intrest.
+Ans.  print("Enter Principle Balance: ")
+      p=int(input())
+      print("Enter Rate of Principle Balance: ")
+      r=float(input())
+      print("Enter The full time of Amount: ")
+      t=int(input())
+      A=(p*r*t)/100
+      print("The Final Amount Is: ",A)
+Q9.  Write a python script to calculate the volume of cuboid.
+Ans.  print("Enter The Length weigth And Height of cuboid: ")
+       l=int(input())
+       w=int(input())
+       h=int(input())
+       vol=l*w*h
+       print("Volume of Cuboid Is: ",vol)
+Q10.  Write a python script to print area of Rectangle.
+Ans.  print("Enter The Length and Width of Rectangle: ")
+      l=int(input())
+      w=int(input())
+      print("Area of Rectangle Is: ",l*w)
+      
